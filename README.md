@@ -2,7 +2,7 @@
 
 As V\*lve started [obfuscating CSS class names](https://github.com/SteamDatabase/SteamTracking/commit/a0f82423f4c422f616253d5825fd8bf453367f3a), a [solution](https://github.com/SteamClientHomebrew/ClassMapper) came up shortly after that. But it's not perfect, as it replaces the readable class names into the ones Steam is using.
 
-This uses the CSS Loader class map. The build script will download it if absent.
+This uses **your own** class map - more info on how it works [here](https://github.com/ricewind012/steam-theming-utils).
 
 Let's say you have a file called `src/desktop/titlebarcontrols.css`:
 

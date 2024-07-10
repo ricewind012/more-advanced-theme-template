@@ -3,14 +3,12 @@
   --sidebar-width: 230px;
 }
 
-
 ._2SvsKGOQeIoV8laKj5Ql5s /* DialogBody */ {
   --sidebar-width: 230px;
   margin-left: var(--sidebar-width);
   overflow: visible !important;
   position: relative;
 }
-
 
 ._1EKWPcG8fTbIjt4XH51i5B /* FilterOptionsCtr */ {
   opacity: 1 !important;
@@ -22,7 +20,6 @@
   align-items: start !important;
 }
 
-
 ._1EKWPcG8fTbIjt4XH51i5B /* FilterOptionsCtr */ .DialogCheckbox_Container,
 ._1EKWPcG8fTbIjt4XH51i5B /* FilterOptionsCtr */ .DialogDropDown,
 ._1EKWPcG8fTbIjt4XH51i5B /* FilterOptionsCtr */ .DialogInput {
@@ -31,23 +28,19 @@
   box-sizing: border-box;
 }
 
-
 ._3zD3TO7h3l5lbeiF4Aj6mi /* FilterOptionsLatencyAntiCheatCtr */ {
   flex-basis: unset !important;
 }
 
-
 .wEGw5DGwuG9ietThudkhS /* FilterOptionsCheckboxesCtr */ {
   align-self: start !important;
 }
-
 
 ._30Bn7zCGRm9mu2m62-VXOF /* ToggleShowFilterDetailsButton */ {
   display: none;
 }
 
 /* Fix text being cut off */
-
 ._2_4_nZy-T2C3pHa81tGH76 /* ServerList */ [role="cell"] {
   display: block !important;
 }
