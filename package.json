@@ -4,6 +4,6 @@
     "build": "npx steam-theming-utils build_theme"
   },
   "dependencies": {
-    "steam-theming-utils": "^1.3.1"
+    "steam-theming-utils": "^1.5.0"
   }
 }

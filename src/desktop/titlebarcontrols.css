@@ -1,5 +1,5 @@
 /* Remove useless shit */
 #AnnouncementsButton,
 #GamepadUIToggle {
-    display: none;
+  display: none;
 }
