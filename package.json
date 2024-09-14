@@ -4,6 +4,8 @@
     "build": "npx steam-theming-utils build_theme"
   },
   "dependencies": {
-    "steam-theming-utils": "^1.5.0"
+    "postcss-nested": "^6.2.0",
+    "postcss-simple-vars": "^7.0.1",
+    "steam-theming-utils": "^2.0.0"
   }
 }

@@ -1,8 +1,4 @@
 /* Filter options sidebar */
-:root {
-  --sidebar-width: 230px;
-}
-
 ._2SvsKGOQeIoV8laKj5Ql5s /* DialogBody */ {
   --sidebar-width: 230px;
   margin-left: var(--sidebar-width);
@@ -21,12 +17,11 @@
 }
 
 ._1EKWPcG8fTbIjt4XH51i5B /* FilterOptionsCtr */ .DialogCheckbox_Container,
-._1EKWPcG8fTbIjt4XH51i5B /* FilterOptionsCtr */ .DialogDropDown,
-._1EKWPcG8fTbIjt4XH51i5B /* FilterOptionsCtr */ .DialogInput {
-  /* 24px = .DialogContent padding */
-  width: calc(var(--sidebar-width) - 24px);
-  box-sizing: border-box;
-}
+  ._1EKWPcG8fTbIjt4XH51i5B /* FilterOptionsCtr */ .DialogDropDown,
+  ._1EKWPcG8fTbIjt4XH51i5B /* FilterOptionsCtr */ .DialogInput {
+    width: calc(var(--sidebar-width) - 24px);
+    box-sizing: border-box;
+  }
 
 ._3zD3TO7h3l5lbeiF4Aj6mi /* FilterOptionsLatencyAntiCheatCtr */ {
   flex-basis: unset !important;

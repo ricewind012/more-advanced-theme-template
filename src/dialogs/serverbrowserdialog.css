@@ -1,8 +1,6 @@
-/* Filter options sidebar */
-:root {
-  --sidebar-width: 230px;
-}
+$DialogBody_padding: 24px;
 
+/* Filter options sidebar */
 #DialogBody {
   --sidebar-width: 230px;
   margin-left: var(--sidebar-width);
@@ -20,12 +18,13 @@
   align-items: start !important;
 }
 
-#FilterOptionsCtr .DialogCheckbox_Container,
-#FilterOptionsCtr .DialogDropDown,
-#FilterOptionsCtr .DialogInput {
-  /* 24px = .DialogContent padding */
-  width: calc(var(--sidebar-width) - 24px);
-  box-sizing: border-box;
+#FilterOptionsCtr {
+  .DialogCheckbox_Container,
+  .DialogDropDown,
+  .DialogInput {
+    width: calc(var(--sidebar-width) - $DialogBody_padding);
+    box-sizing: border-box;
+  }
 }
 
 #FilterOptionsLatencyAntiCheatCtr {
