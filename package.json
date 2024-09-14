@@ -6,6 +6,6 @@
   "dependencies": {
     "postcss-nested": "^6.2.0",
     "postcss-simple-vars": "^7.0.1",
-    "steam-theming-utils": "^2.0.0"
+    "steam-theming-utils": "^2.0.1"
   }
 }

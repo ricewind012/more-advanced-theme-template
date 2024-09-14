@@ -1,6 +1,8 @@
 # A more advanced theme template
 
-This uses **your own** class map - more info on how it works [here](https://github.com/ricewind012/steam-theming-utils).
+This uses **your own** class map - more info on how it works [here][steam-theming-utils].
+
+## Example
 
 Let's say you have a file called `src/desktop/titlebarcontrols.css`:
 
@@ -26,14 +28,18 @@ This example resides in the `src` directory. The files whose class names will be
 
 ## Usage
 
-Install dependencies:
-
 ```sh
-$ npm install
-```
+# Install dependencies
+$ npm i
 
-Write some CSS, then, in your terminal, run:
+# See the readable versions of classes
+$ npx steam-theming-utils make_readable_classes
 
-```sh
+# ...and build!
 $ npm run build
 ```
+
+[Biome](biome), a CSS/JS formatter/linter, is also included as a dependency of [steam-theming-utils](steam-theming-utils).
+
+[biome]: https://biomejs.dev
+[steam-theming-utils]: https://github.com/ricewind012/steam-theming-utils
