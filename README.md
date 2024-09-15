@@ -39,7 +39,8 @@ $ npx steam-theming-utils make_readable_classes
 $ npm run build
 ```
 
-[Biome](biome), a CSS/JS formatter/linter, is also included as a dependency of [steam-theming-utils](steam-theming-utils).
+[Biome][biome], a CSS/JS formatter/linter, and [PostCSS][postcss] are also included as dependencies of [steam-theming-utils][steam-theming-utils].
 
 [biome]: https://biomejs.dev
+[postcss]: https://postcss.org
 [steam-theming-utils]: https://github.com/ricewind012/steam-theming-utils
