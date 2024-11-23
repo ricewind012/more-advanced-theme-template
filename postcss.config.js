@@ -1,5 +1,4 @@
 import postcssFunctions from "postcss-functions";
-import postcssNested from "postcss-nested";
 import { runWithResult } from "steam-theming-utils";
 
 const steamVersion = await runWithResult(
@@ -15,7 +14,6 @@ const config = {
 				getSteamVersion,
 			},
 		}),
-		postcssNested,
 	],
 };
 
