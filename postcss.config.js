@@ -1,20 +1,23 @@
+import fs from "node:fs";
 import postcssFunctions from "postcss-functions";
-import { runWithResult } from "steam-theming-utils";
+import postcssSass from "@csstools/postcss-sass";
+import { selectorReplacerPlugin } from "steam-theming-utils/postcss-plugin";
 
-const steamVersion = await runWithResult(
-	"(async () => (await SteamClient.System.GetSystemInfo()).nSteamVersion)()",
-);
-const getSteamVersion = () => `"${steamVersion}"`;
+const result = fs.readFileSync("steam_version").toString();
+const getSteamVersion = () => `"${result}"`;
 
 /** @type {import("postcss-load-config").Config} */
-const config = {
+export default {
+	map: false,
 	plugins: [
+		selectorReplacerPlugin(),
+		postcssSass({
+			silenceDeprecations: ["legacy-js-api"],
+		}),
 		postcssFunctions({
 			functions: {
-				getSteamVersion,
+				"steam-version": getSteamVersion,
 			},
 		}),
 	],
 };
-
-export default config;

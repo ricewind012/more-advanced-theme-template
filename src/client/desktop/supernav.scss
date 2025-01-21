@@ -1,6 +1,6 @@
 #SuperNav {
 	&::after {
-		content: "Theme for Steam version " getSteamVersion();
+		content: "Theme for Steam version " steam-version();
 
 		margin-top: -7px;
 		margin-left: auto;
