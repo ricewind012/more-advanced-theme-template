@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import yargs from "yargs";
 import postcssFunctions from "postcss-functions";
-import postcssSass from "@csstools/postcss-sass";
+import postcssSassParser from "postcss-scss";
+import postcssSassPlugin from "@csstools/postcss-sass";
 import {
 	appendImportantPlugin,
 	selectorReplacerPlugin,
@@ -19,9 +20,9 @@ const getSteamVersion = () => `"${result}"`;
 /** @type {import("postcss-load-config").Config} */
 export default {
 	map: false,
+	parser: postcssSassParser,
 	plugins: [
-		selectorReplacerPlugin(),
-		postcssSass({
+		postcssSassPlugin({
 			silenceDeprecations: ["legacy-js-api"],
 		}),
 		postcssFunctions({
@@ -32,5 +33,6 @@ export default {
 		appendImportantPlugin({
 			filter: [/^:root/],
 		}),
+		selectorReplacerPlugin(),
 	],
 };
