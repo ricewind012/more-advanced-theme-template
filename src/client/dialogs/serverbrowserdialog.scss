@@ -4,18 +4,18 @@ $DialogBody_padding: 24px;
 #DialogBody {
 	--sidebar-width: 230px;
 	margin-left: var(--sidebar-width);
-	overflow: visible !important;
+	overflow: visible;
 	position: relative;
 }
 
 #FilterOptionsCtr {
-	opacity: 1 !important;
+	opacity: 1;
 	position: absolute;
 	top: 0;
 	left: calc(var(--sidebar-width) * -1);
-	height: 100% !important;
-	flex-direction: column !important;
-	align-items: start !important;
+	height: 100%;
+	flex-direction: column;
+	align-items: start;
 }
 
 #FilterOptionsCtr {
@@ -28,11 +28,11 @@ $DialogBody_padding: 24px;
 }
 
 #FilterOptionsLatencyAntiCheatCtr {
-	flex-basis: unset !important;
+	flex-basis: unset;
 }
 
 #FilterOptionsCheckboxesCtr {
-	align-self: start !important;
+	align-self: start;
 }
 
 #ToggleShowFilterDetailsButton {
@@ -41,5 +41,5 @@ $DialogBody_padding: 24px;
 
 // Fix text being cut off
 #ServerList [role="cell"] {
-	display: block !important;
+	display: block;
 }

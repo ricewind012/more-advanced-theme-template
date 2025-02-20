@@ -1,15 +1,15 @@
 ._2SvsKGOQeIoV8laKj5Ql5s {
-  --sidebar-width: 230px;
-  margin-left: var(--sidebar-width);
+  --sidebar-width: 230px !important;
+  margin-left: var(--sidebar-width) !important;
   overflow: visible !important;
-  position: relative;
+  position: relative !important;
 }
 
 ._1EKWPcG8fTbIjt4XH51i5B {
   opacity: 1 !important;
-  position: absolute;
-  top: 0;
-  left: calc(var(--sidebar-width) * -1);
+  position: absolute !important;
+  top: 0 !important;
+  left: calc(var(--sidebar-width) * -1) !important;
   height: 100% !important;
   flex-direction: column !important;
   align-items: start !important;
@@ -18,8 +18,8 @@
 ._1EKWPcG8fTbIjt4XH51i5B .DialogCheckbox_Container,
 ._1EKWPcG8fTbIjt4XH51i5B .DialogDropDown,
 ._1EKWPcG8fTbIjt4XH51i5B .DialogInput {
-  width: calc(var(--sidebar-width) - 24px);
-  box-sizing: border-box;
+  width: calc(var(--sidebar-width) - 24px) !important;
+  box-sizing: border-box !important;
 }
 
 ._3zD3TO7h3l5lbeiF4Aj6mi {
@@ -31,7 +31,7 @@
 }
 
 ._30Bn7zCGRm9mu2m62-VXOF {
-  display: none;
+  display: none !important;
 }
 
 ._2_4_nZy-T2C3pHa81tGH76 [role=cell] {

@@ -6,30 +6,30 @@
 }
 
 #Navigation {
-  gap: var(--spacing-05x) !important;
-  margin-right: 0 !important;
-  margin-bottom: var(--spacing-2x) !important;
+  gap: var(--spacing-05x);
+  margin-right: 0;
+  margin-bottom: var(--spacing-2x);
 
-  display: flex !important;
-  flex-wrap: wrap !important;
-  width: unset !important;
-  max-width: unset !important;
+  display: flex;
+  flex-wrap: wrap;
+  width: unset;
+  max-width: unset;
 }
 
 #NavLink {
-  padding: 0 var(--spacing-2x) !important;
-  margin-bottom: 0 !important;
+  padding: 0 var(--spacing-2x);
+  margin-bottom: 0;
 }
 
 #ProfileEditLine {
-  display: none !important;
+  display: none;
 }
 
 #ProfileEditStoreLink {
-  margin: 0 !important;
-  margin-top: var(--spacing-05x) !important;
+  margin: 0;
+  margin-top: var(--spacing-05x);
 }
 
 #Shell {
-  flex-direction: column !important;
+  flex-direction: column;
 }

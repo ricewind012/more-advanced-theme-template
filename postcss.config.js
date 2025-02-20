@@ -2,7 +2,10 @@ import fs from "node:fs";
 import yargs from "yargs";
 import postcssFunctions from "postcss-functions";
 import postcssSass from "@csstools/postcss-sass";
-import { selectorReplacerPlugin } from "steam-theming-utils/postcss-plugin";
+import {
+	appendImportantPlugin,
+	selectorReplacerPlugin,
+} from "steam-theming-utils/postcss-plugins";
 
 const { argv } = yargs(process.argv);
 
@@ -25,6 +28,9 @@ export default {
 			functions: {
 				"steam-version": getSteamVersion,
 			},
+		}),
+		appendImportantPlugin({
+			filter: [/^:root/],
 		}),
 	],
 };
