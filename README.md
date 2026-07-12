@@ -30,13 +30,13 @@ This example resides in the `src` directory. The files whose class names will be
 
 ```sh
 # Install dependencies
-$ npm i
+$ bun i
 
 # See the readable versions of classes
-$ npx steam-theming-utils make_readable_classes
+$ bunx steam-theming-utils make_readable_classes
 
 # ...and build!
-$ npm run build
+$ bun run build
 ```
 
 [Prettier][prettier], a CSS/JS formatter, is also included as a dependency of [steam-theming-utils][steam-theming-utils].
