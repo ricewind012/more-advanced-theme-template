@@ -1,13 +1,13 @@
 {
-  "type": "module",
-  "scripts": {
-    "build": "node get_steam_version && npx postcss --verbose src --base src --dir dist --ext css"
-  },
-  "dependencies": {
-    "@csstools/postcss-sass": "^5.1.1",
-    "postcss-cli": "^11.0.0",
-    "postcss-functions": "^4.0.2",
-    "postcss-scss": "^4.0.9",
-    "steam-theming-utils": "^3.2.0"
-  }
+	"type": "module",
+	"scripts": {
+		"build": "node get_steam_version && npx postcss --verbose src --base src --dir dist --ext css"
+	},
+	"dependencies": {
+		"@csstools/postcss-sass": "^5.1.1",
+		"postcss-cli": "^11.0.0",
+		"postcss-functions": "^4.0.2",
+		"postcss-scss": "^4.0.9",
+		"steam-theming-utils": "^3.2.0"
+	}
 }

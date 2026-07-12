@@ -10,7 +10,7 @@ Let's say you have a file called `src/desktop/titlebarcontrols.css`:
 /* Remove useless shit */
 #AnnouncementsButton,
 #GamepadUIToggle {
-  display: none;
+	display: none;
 }
 ```
 
@@ -20,7 +20,7 @@ It will be compiled to the following code residing in `dist/desktop/titlebarcont
 /* Remove useless shit */
 ._5wILZhsLODVwGfcJ0hKmJ /* AnnouncementsButton */,
 ._3LKQ3S_yqrebeNLF6aeiog /* GamepadUIToggle */ {
-  display: none;
+	display: none;
 }
 ```
 
