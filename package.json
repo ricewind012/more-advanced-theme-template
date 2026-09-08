@@ -1,13 +1,14 @@
 {
 	"type": "module",
 	"scripts": {
-		"build": "bun get_steam_version && postcss --verbose src --base src --dir dist --ext css"
+		"build": "bun get_steam_version steam && postcss --verbose src --base src --dir dist --ext css"
 	},
 	"dependencies": {
 		"@csstools/postcss-sass": "^5.1.1",
+		"@web-app-class-maps/postcss-plugins": "link:@web-app-class-maps/postcss-plugins",
+		"@web-app-class-maps/scripts": "link:@web-app-class-maps/scripts",
 		"postcss-cli": "^11.0.0",
 		"postcss-functions": "^4.0.2",
-		"postcss-scss": "^4.0.9",
-		"steam-theming-utils": "^3.2.0"
+		"postcss-scss": "^4.0.9"
 	}
 }

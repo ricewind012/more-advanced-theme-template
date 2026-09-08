@@ -5,8 +5,8 @@ import postcssSassParser from "postcss-scss";
 import postcssSassPlugin from "@csstools/postcss-sass";
 import {
 	appendImportantPlugin,
-	selectorReplacerPlugin,
-} from "steam-theming-utils/postcss-plugins";
+	selectorReplacementPlugin,
+} from "@web-app-class-maps/postcss-plugins";
 
 const { argv } = yargs(process.argv);
 
@@ -33,6 +33,6 @@ export default {
 		appendImportantPlugin({
 			filter: [/^:root/],
 		}),
-		selectorReplacerPlugin(),
+		selectorReplacementPlugin(),
 	],
 };
