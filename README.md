@@ -39,7 +39,4 @@ $ bunx @web-app-class-maps/scripts make-readable-classes
 $ bun run build
 ```
 
-[Prettier][prettier], a CSS/JS formatter, is also included as a dependency of [web-app-class-maps][web-app-class-maps].
-
-[prettier]: https://prettier.io
 [web-app-class-maps]: https://github.com/ricewind012/web-app-class-maps
