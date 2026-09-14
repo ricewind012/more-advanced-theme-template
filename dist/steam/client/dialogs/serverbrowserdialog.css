@@ -1,12 +1,12 @@
 /* Filter options sidebar*/
-._2SvsKGOQeIoV8laKj5Ql5s {
+._2SvsKGOQeIoV8laKj5Ql5s DialogBody {
   --sidebar-width: 230px !important;
   margin-left: var(--sidebar-width) !important;
   overflow: visible !important;
   position: relative !important;
 }
 
-._1EKWPcG8fTbIjt4XH51i5B {
+._1EKWPcG8fTbIjt4XH51i5B FilterOptionsCtr {
   opacity: 1 !important;
   position: absolute !important;
   top: 0 !important;
@@ -16,26 +16,26 @@
   align-items: start !important;
 }
 
-._1EKWPcG8fTbIjt4XH51i5B .DialogCheckbox_Container,
-._1EKWPcG8fTbIjt4XH51i5B .DialogDropDown,
-._1EKWPcG8fTbIjt4XH51i5B .DialogInput {
+._1EKWPcG8fTbIjt4XH51i5B FilterOptionsCtr .DialogCheckbox_Container,
+._1EKWPcG8fTbIjt4XH51i5B FilterOptionsCtr .DialogDropDown,
+._1EKWPcG8fTbIjt4XH51i5B FilterOptionsCtr .DialogInput {
   width: calc(var(--sidebar-width) - 24px) !important;
   box-sizing: border-box !important;
 }
 
-._3zD3TO7h3l5lbeiF4Aj6mi {
+._3zD3TO7h3l5lbeiF4Aj6mi FilterOptionsLatencyAntiCheatCtr {
   flex-basis: unset !important;
 }
 
-.wEGw5DGwuG9ietThudkhS {
+.wEGw5DGwuG9ietThudkhS FilterOptionsCheckboxesCtr {
   align-self: start !important;
 }
 
-._30Bn7zCGRm9mu2m62-VXOF {
+._30Bn7zCGRm9mu2m62-VXOF ToggleShowFilterDetailsButton {
   display: none !important;
 }
 
 /* Fix text being cut off*/
-._2_4_nZy-T2C3pHa81tGH76 [role=cell] {
+._2_4_nZy-T2C3pHa81tGH76 ServerList [role=cell] {
   display: block !important;
 }

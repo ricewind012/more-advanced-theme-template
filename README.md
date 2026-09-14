@@ -1,6 +1,6 @@
 # A more advanced theme template
 
-This uses **your own** class map - more info on how it works [here][steam-theming-utils].
+This uses a class map, more info on how it works [here][web-app-class-maps].
 
 ## Example
 
@@ -18,8 +18,8 @@ It will be compiled to the following code residing in `dist/desktop/titlebarcont
 
 ```css
 /* Remove useless shit */
-._5wILZhsLODVwGfcJ0hKmJ /* AnnouncementsButton */,
-._3LKQ3S_yqrebeNLF6aeiog /* GamepadUIToggle */ {
+._5wILZhsLODVwGfcJ0hKmJ,
+._3LKQ3S_yqrebeNLF6aeiog {
 	display: none;
 }
 ```
@@ -33,13 +33,10 @@ This example resides in the `src` directory. The files whose class names will be
 $ bun i
 
 # See the readable versions of classes
-$ bunx steam-theming-utils make_readable_classes
+$ bunx @web-app-class-maps/scripts make-readable-classes
 
 # ...and build!
 $ bun run build
 ```
 
-[Prettier][prettier], a CSS/JS formatter, is also included as a dependency of [steam-theming-utils][steam-theming-utils].
-
-[prettier]: https://prettier.io
-[steam-theming-utils]: https://github.com/ricewind012/steam-theming-utils
+[web-app-class-maps]: https://github.com/ricewind012/web-app-class-maps
